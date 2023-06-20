@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* set the font family for the whole document */
+        * {
+            font-family: Arial, sans-serif;
+            box-sizing: border-box;
+        }
+
+        /* style the header element */
+        header {
+            background-color: lightblue;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* style the logo image */
+        #logo {
+            width: 50px;
+            height: 50px;
+            float: left;
+        }
+
+        /* style the navigation bar */
+        nav {
+            float: right;
+            margin-top: 10px;
+        }
+
+        /* style the navigation links */
+        nav a {
+            display: inline-block;
+            padding: 10px 20px;
+            color: black;
+            text-decoration: none;
+        }
+
+        /* change the color of the navigation links when hovered */
+        nav a:hover {
+            background-color: white;
+        }
+
+        /* clear the floats after the header */
+        .clearfix {
+            clear: both;
+        }
+
+        /* style the main content container */
+        #container {
+            width: 80%;
+            margin: auto;
+        }
+
+        /* style the h1 element */
+        h1 {
+            color: blue;
+            text-align: center;
+        }
+
+        /* style the p elements */
+        p {
+            font-size: 20px;
+            line-height: 1.5;
+        }
+
+        /* style the button element */
+        #button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: green;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        /* style the section element */
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 40px;
+        }
+
+        /* style the image elements */
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        /* style the caption elements */
+        figcaption {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        /* style the footer element */
+        footer {
+            background-color: lightgray;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- create a header element -->
+    <header>
+        <!-- add a logo image -->
+        <img id="logo" src="logo.png" alt="Logo">
+        
+        <!-- add a navigation bar -->
+        <nav>
+            <!-- add some navigation links -->
+            <a href="botweb1.html">Home</a>
+            <a href="botweb11.html">About</a>
+            <a href="botweb111.html">Contact</a>
+        </nav>
+
+        <!-- add a clearfix element to clear the floats -->
+        <div class="clearfix"></div>
+    </header>
+
+    <!-- create a main content container -->
+    <div id="container">
+        
+        <!-- add a h1 element -->
+        <h1>My Simple Website</h1>
+
+        <!-- add a p element -->
+        <p>This is a simple website using HTML, CSS, and JS.</p>
+
+        <!-- add another p element with an id of message -->
+        <p id="message">Click the button below to see a message.</p>
+
+        <!-- add a button element with an id of button -->
+        <button id="button">Click Me</button>
+
+        <!-- create a section element -->
+
+
+    </div>
+
+    <!-- create a footer element -->
+    <footer>
+        <!-- add some links -->
+        <a href="#">Privacy Policy</a> |
+        <a href="#">Terms of Service</a> |
+        <a href="#">Feedback</a>
+    </footer>
+
+    <!-- add the script element -->
+    <script src="https://kb-ai.s3.us-east-2.amazonaws.com/hi.js" data-api-code="fc6995f1-2b4e-4556-a6f8-8d6661195d91"></script>
+
+    <!-- add a script element -->
+    <script>
+        // get the button element
+        var button = document.getElementById("button");
+
+        // add a click event listener
+        button.addEventListener("click", function() {
+            // get the message element
+            var message = document.getElementById("message");
+
+            // change the message text
+            message.textContent = "Hello, this is Emily!. The Bot Assistance";
+        });
+    </script>
+
+
+<div><h1>Zoom It And Use It</h1>
+<h3>Bot Discription</h3>
+    <p>This bot helps you to find answers for your questions and write simple coding.It is an educational bot that helps you to gain knowledge </p></div>
+</body>
+</html>

@@ -1,0 +1,164 @@
+<html>
+<head>
+    <style>
+        /* set the font family for the whole document */
+        * {
+            font-family: Arial, sans-serif;
+        }
+
+        /* style the header element */
+        header {
+            background-color: lightblue;
+            padding: 20px;
+        }
+
+        /* style the logo image */
+        #logo {
+            width: 50px;
+            height: 50px;
+            float: left;
+        }
+
+        /* style the navigation bar */
+        nav {
+            float: right;
+            margin-top: 10px;
+        }
+
+        /* style the navigation links */
+        nav a {
+            display: inline-block;
+            padding: 10px 20px;
+            color: black;
+            text-decoration: none;
+        }
+
+        /* change the color of the navigation links when hovered */
+        nav a:hover {
+            background-color: white;
+        }
+
+        /* clear the floats after the header */
+        .clearfix {
+            clear: both;
+        }
+
+        /* style the main content container */
+        #container {
+            width: 80%;
+            margin: auto;
+        }
+
+        /* style the h1 element */
+        h1 {
+            color: blue;
+            text-align: center;
+        }
+
+        /* style the p elements */
+        p {
+            font-size: 20px;
+        }
+
+         /* style the form element */
+         form {
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+             margin-top: 40px;
+         }
+
+         /* style the label elements */
+         label {
+             display: block;
+             margin-bottom: 10px;
+         }
+
+         /* style the input and textarea elements */
+         input, textarea {
+             width: 80%;
+             padding: 10px;
+             border: 1px solid gray;
+             border-radius: 5px;
+         }
+
+         /* style the submit button */
+         input[type=submit] {
+             width: 20%;
+             background-color: green;
+             color: white;
+             cursor: pointer;
+         }
+
+         /* style the footer element */
+         footer {
+             background-color: lightgray;
+             padding: 20px;
+             text-align: center;
+         }
+    </style>
+</head>
+<body>
+    <!-- create a header element -->
+    <header>
+        <!-- add a logo image -->
+        <img id="logo" src="logo.png" alt="Logo">
+        
+         <!-- add a navigation bar -->
+         <nav>
+             <!-- add some navigation links -->
+             <a href="botweb1.html">Home</a>
+             <a href="botweb11.html">About</a>
+             <a href="botweb111.html">Contact</a>
+         </nav>
+
+         <!-- add a clearfix element to clear the floats -->
+         <div class="clearfix"></div>
+    </header>
+
+    <!-- create a main content container -->
+    <div id="container">
+        
+         <!-- add a h1 element -->
+         <h1>Contact Me</h1>
+
+         <!-- add some p elements -->
+         <p>If you have any questions, suggestions, or feedback, please fill out the form below and I will get back to you as soon as possible.</p>
+
+         <p>You can also reach me through email at sreesreesreesharma387@gmail.com.</p>
+
+         <!-- create a form element -->
+         <form action="#" method="post">
+             
+             <!-- add some label and input elements -->
+             <label for="name">Name:</label>
+             <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+             <label for="email">Email:</label>
+             <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+             <label for="subject">Subject:</label>
+             <input type="text" id="subject" name="subject" placeholder="Enter your subject">
+
+             <label for="message">Message:</label>
+             <textarea id="message" name="message" rows="10" placeholder="Enter your message" required></textarea>
+
+             <!-- add a submit button -->
+             <input type="submit" value="Send">
+
+         </form>
+
+    </div>
+
+    <!-- create a footer element -->
+    <footer>
+        
+         <!-- add some links -->
+         <a href="#">Privacy Policy</a> |
+         <a href="#">Terms of Service</a> |
+         <a href="#">Feedback</a>
+
+    </footer>
+</body>
+</html>
+
